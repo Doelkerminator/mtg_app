@@ -1,0 +1,51 @@
+name: mtg_app
+description: Magic The Compendium
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+#Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^0.13.4
+  splash_screen_view: ^3.0.0
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  #Assets
+  assets:
+    - assets/images/spinner.gif
+    - assets/images/planeswalker.png
+    - assets/images/error.png
+    - assets/images/shruggie.jpg
+
+  #Fonts
+  fonts:
+    - family: Candara
+      fonts:
+        - asset: assets/fonts/Candara/Candara_Bold_Italic.ttf
+        - asset: assets/fonts/Candara/Candara_Bold.ttf
+        - asset: assets/fonts/Candara/Candara_Italic.ttf
+        - asset: assets/fonts/Candara/Candara.ttf
+    - family: Inlanders
+      fonts:
+        - asset: assets/fonts/Inlanders/Inlanders.otf
